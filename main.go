@@ -1,4 +1,4 @@
-package gobackup
+package main
 
 import (
     "github.com/it-fm/gozip"
@@ -9,7 +9,7 @@ import (
     "strconv"
 )
 
-func Start() {
+func main() {
 
     go func() {
         c := cron.New()
